@@ -16,7 +16,7 @@ Parents and families can quickly find team rosters, season fees/events, spirit w
 
 ### Active
 
-- [ ] Clean, modern design with bold gold (#feda00) and dark purple (#0a0047) branding
+- [ ] Clean, modern design with yellow (#feda00) and dark navy (#0a0047) branding
 - [ ] Team rosters by age group (7U–15U)
 - [ ] Season fees and events information
 - [ ] Spirit wear section (link or embedded store)
@@ -49,7 +49,8 @@ Parents and families can quickly find team rosters, season fees/events, spirit w
 
 - **Budget**: Free or minimal hosting costs — rules out paid CMS platforms
 - **Maintainers**: Non-technical board members — needs simple content editing (no code changes to update rosters/events)
-- **Branding**: Gold (#feda00) and dark purple (#0a0047) — established team colors, must keep
+- **Branding**: Yellow (#feda00) and dark navy (#0a0047) — established team colors, must keep
+- **Integration**: JerseyWatch handles registration — must embed JerseyWatch registration on the new site
 - **Design**: Clean & sporty feel — bold typography, athletic energy, lots of whitespace
 
 ## Key Decisions
@@ -57,9 +58,10 @@ Parents and families can quickly find team rosters, season fees/events, spirit w
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
 | Simplified site structure | Current site has too many pages and feels cluttered | — Pending |
-| Keep gold/purple brand colors | Established Bombers identity | — Pending |
+| Keep yellow/navy brand colors | Established Bombers identity | — Pending |
+| JerseyWatch for registration | Handles payments and registration flow already | — Pending |
 | Non-technical CMS approach | Board members need to update without coding | — Pending |
 | Free/minimal hosting | Community org budget constraints | — Pending |
 
 ---
-*Last updated: 2026-02-16 after initialization*
+*Last updated: 2026-02-16 after requirements definition*
