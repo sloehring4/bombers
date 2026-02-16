@@ -65,11 +65,11 @@ Plans:
   2. Quick links to Teams, Fees, Spirit Wear, and Contact are prominently displayed
   3. Key information (next tryout date, registration deadline) is visible without scrolling
   4. Page communicates athletic energy and clean design
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md — Install lucide-react, create home page data file, and build Hero component
+- [ ] 03-02-PLAN.md — Build QuickLinkCard, QuickLinks, AnnouncementBanner, and compose home page
 
 ### Phase 4: Teams & Rosters System
 **Goal**: Parents can view all age groups and access detailed rosters for each team
@@ -200,7 +200,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 |-------|----------------|--------|-----------|
 | 1. Foundation & Setup | 0/1 | Not started | - |
 | 2. Core Layout & Navigation | 0/TBD | Not started | - |
-| 3. Home Page | 0/TBD | Not started | - |
+| 3. Home Page | 0/2 | Not started | - |
 | 4. Teams & Rosters System | 0/TBD | Not started | - |
 | 5. Organization Pages | 0/TBD | Not started | - |
 | 6. Fees & Events | 0/TBD | Not started | - |
