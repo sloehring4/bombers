@@ -50,11 +50,11 @@ Plans:
   3. Navigation includes ~7 core pages (Home, Teams, About, Fees & Events, Spirit Wear, Contact)
   4. Mobile hamburger menu works correctly on small screens
   5. Navigation active state highlights current page
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md — Header with responsive navigation (NavLinks, MobileMenu, navigation config)
+- [ ] 02-02-PLAN.md — Footer and root layout integration with visual verification
 
 ### Phase 3: Home Page
 **Goal**: Engaging landing page provides quick access to most-used sections
