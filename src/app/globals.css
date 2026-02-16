@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* Bombers brand colors */
+  --color-bombers-yellow: #feda00;
+  --color-bombers-navy: #0a0047;
+
+  /* Derived yellow shades */
+  --color-yellow-50: oklch(0.99 0.02 95);
+  --color-yellow-100: oklch(0.97 0.05 95);
+  --color-yellow-200: oklch(0.94 0.08 95);
+  --color-yellow-300: oklch(0.91 0.11 95);
+  --color-yellow-400: oklch(0.90 0.13 95);
+  --color-yellow-500: oklch(0.90 0.15 95);
+  --color-yellow-600: oklch(0.75 0.14 95);
+  --color-yellow-700: oklch(0.60 0.12 95);
+
+  /* Derived navy shades */
+  --color-navy-50: oklch(0.95 0.01 270);
+  --color-navy-100: oklch(0.90 0.02 270);
+  --color-navy-200: oklch(0.80 0.03 270);
+  --color-navy-300: oklch(0.60 0.04 270);
+  --color-navy-400: oklch(0.40 0.05 270);
+  --color-navy-500: oklch(0.30 0.06 270);
+  --color-navy-600: oklch(0.20 0.05 270);
+  --color-navy-700: oklch(0.15 0.04 270);
+  --color-navy-800: oklch(0.12 0.03 270);
+  --color-navy-900: oklch(0.10 0.03 270);
+
+  /* Typography — Poppins for headings, Inter for body */
+  --font-heading: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Friendly rounded corners */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-body);
+  color: var(--color-navy-900);
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
