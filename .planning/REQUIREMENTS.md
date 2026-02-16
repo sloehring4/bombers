@@ -84,13 +84,36 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (populated during roadmap creation) | | |
+| FOUN-01 | Phase 1 | Pending |
+| FOUN-02 | Phase 1 | Pending |
+| FOUN-03 | Phase 2 | Pending |
+| FOUN-04 | Phase 1 | Pending |
+| TEAM-01 | Phase 4 | Pending |
+| TEAM-02 | Phase 4 | Pending |
+| TEAM-03 | Phase 4 | Pending |
+| TEAM-04 | Phase 4 | Pending |
+| ORG-01 | Phase 5 | Pending |
+| ORG-02 | Phase 5 | Pending |
+| ORG-03 | Phase 5 | Pending |
+| ORG-04 | Phase 5 | Pending |
+| FEES-01 | Phase 6 | Pending |
+| FEES-02 | Phase 6 | Pending |
+| FEES-03 | Phase 6 | Pending |
+| FEES-04 | Phase 6 | Pending |
+| SPRT-01 | Phase 7 | Pending |
+| SPRT-02 | Phase 7 | Pending |
+| CONT-01 | Phase 8 | Pending |
+| CONT-02 | Phase 8 | Pending |
+| CONT-03 | Phase 8 | Pending |
+| CONT-04 | Phase 8 | Pending |
+| MGMT-01 | Phase 9 | Pending |
+| MGMT-02 | Phase 9 | Pending |
 
 **Coverage:**
-- v1 requirements: 20 total
-- Mapped to phases: 0
-- Unmapped: 20 ⚠️
+- v1 requirements: 24 total
+- Mapped to phases: 24
+- Unmapped: 0 (100% coverage)
 
 ---
 *Requirements defined: 2026-02-16*
-*Last updated: 2026-02-16 after initial definition*
+*Last updated: 2026-02-16 after roadmap creation*
