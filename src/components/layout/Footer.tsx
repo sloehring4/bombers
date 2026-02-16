@@ -25,7 +25,7 @@ export default function Footer() {
                 About
               </Link>
               <Link
-                href="/fees-events"
+                href="/fees"
                 className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors"
               >
                 Fees &amp; Events
