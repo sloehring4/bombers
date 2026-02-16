@@ -35,11 +35,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Tailwind CSS is configured with Bombers yellow (#feda00) and navy (#0a0047) colors
   3. Mobile-responsive base layout works correctly on phone screens
   4. Site loads quickly (static files, no server runtime)
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md — Scaffold Next.js with static export, Bombers branding, and mobile-first base components
 
 ### Phase 2: Core Layout & Navigation
 **Goal**: Site-wide layout structure with simplified navigation is functional across all pages
@@ -77,7 +76,7 @@ Plans:
 **Depends on**: Phase 3
 **Requirements**: TEAM-01, TEAM-02, TEAM-03, TEAM-04
 **Success Criteria** (what must be TRUE):
-  1. Teams overview page displays all age groups (7U–15U) in a grid layout
+  1. Teams overview page displays all age groups (7U-15U) in a grid layout
   2. Clicking an age group navigates to that team's roster page
   3. Roster pages show player names, jersey numbers, and positions
   4. Coach names and photos/bios appear on roster pages
@@ -199,7 +198,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Setup | 0/TBD | Not started | - |
+| 1. Foundation & Setup | 0/1 | Not started | - |
 | 2. Core Layout & Navigation | 0/TBD | Not started | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Teams & Rosters System | 0/TBD | Not started | - |
