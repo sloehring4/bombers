@@ -81,12 +81,11 @@ Plans:
   3. Roster pages show player names, jersey numbers, and positions
   4. Coach names and photos/bios appear on roster pages
   5. Team photos display correctly on roster pages
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
-- [ ] 04-03: TBD
+- [ ] 04-01-PLAN.md — Team data types/sample data and teams overview page with age group grouping
+- [ ] 04-02-PLAN.md — Dynamic roster pages with RosterTable, CoachCard, and generateStaticParams
 
 ### Phase 5: Organization Pages
 **Goal**: Families can learn about the Bombers organization, leadership, and values
@@ -201,7 +200,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 1. Foundation & Setup | 0/1 | Not started | - |
 | 2. Core Layout & Navigation | 0/TBD | Not started | - |
 | 3. Home Page | 0/2 | Not started | - |
-| 4. Teams & Rosters System | 0/TBD | Not started | - |
+| 4. Teams & Rosters System | 0/2 | Not started | - |
 | 5. Organization Pages | 0/TBD | Not started | - |
 | 6. Fees & Events | 0/TBD | Not started | - |
 | 7. Spirit Wear | 0/TBD | Not started | - |
