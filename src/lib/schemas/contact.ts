@@ -1,27 +1,37 @@
 import { z } from 'zod';
 
+// SocialLink schema (iconName as string for JSON storage)
+export const SocialLinkSchema = z.object({
+  name: z.string().min(1, 'Social link name is required'),
+  url: z.string().url('Social link URL must be a valid URL'),
+  iconName: z.string().min(1, 'Icon name is required'),
+});
+
+export type SocialLinkData = z.infer<typeof SocialLinkSchema>;
+
+// Root schema for contact data
+export const ContactDataSchema = z.object({
+  socialLinks: z.array(SocialLinkSchema),
+  contactEmail: z.string().email('Contact email must be a valid email address'),
+  donationUrl: z.string().url('Donation URL must be a valid URL'),
+});
+
+export type ContactData = z.infer<typeof ContactDataSchema>;
+
+// Contact form schema (for form validation)
 export const contactFormSchema = z.object({
-  name: z
-    .string()
-    .min(1, 'Name is required')
-    .max(100, 'Name must be 100 characters or less'),
-  email: z
-    .string()
-    .min(1, 'Email is required')
-    .email('Invalid email address'),
+  name: z.string().min(1, 'Name is required'),
+  email: z.string().email('Please enter a valid email address'),
   phone: z
     .string()
-    .regex(/^[0-9\s\-()]*$/, 'Invalid phone number format')
+    .regex(
+      /^[\d\s()+-]*$/,
+      'Phone number can only contain digits, spaces, parentheses, plus, and hyphen'
+    )
     .optional()
     .or(z.literal('')),
-  subject: z
-    .string()
-    .min(1, 'Subject is required')
-    .max(200, 'Subject must be 200 characters or less'),
-  message: z
-    .string()
-    .min(10, 'Message must be at least 10 characters')
-    .max(2000, 'Message must be 2000 characters or less'),
+  subject: z.string().min(1, 'Subject is required'),
+  message: z.string().min(10, 'Message must be at least 10 characters'),
 });
 
 export type ContactFormData = z.infer<typeof contactFormSchema>;
