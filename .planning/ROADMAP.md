@@ -139,11 +139,11 @@ Plans:
   2. Social media icons link correctly to Facebook and Instagram pages
   3. Donation link navigates to donation page/form
   4. Embedded social media feed displays recent Facebook or Instagram posts
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [ ] 08-01-PLAN.md — Install deps, create contact data/schema, build ContactForm and SocialLinks components
+- [ ] 08-02-PLAN.md — Create SocialFeed component, compose /contact page, enhance footer with social icons
 
 ### Phase 9: Content Management System
 **Goal**: Board members can update rosters, events, and fees without code changes
