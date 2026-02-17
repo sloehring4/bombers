@@ -2,7 +2,7 @@ import { Sponsor } from '@/lib/data/sponsors';
 import SponsorCard from './SponsorCard';
 
 interface SponsorGridProps {
-  sponsors: Sponsor[];
+  sponsors: readonly Sponsor[];
   limit?: number;
 }
 
