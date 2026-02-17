@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-16)
 
 **Core value:** Parents and families can quickly find team rosters, season fees/events, spirit wear, and contact info — without navigating a cluttered site.
-**Current focus:** Phase 5 - Organization Pages
+**Current focus:** Phase 6 - Fees & Events
 
 ## Current Position
 
-Phase: 5 of 11 (Organization Pages)
-Plan: 2 of 2 in current phase
+Phase: 6 of 11 (Fees & Events)
+Plan: 1 of 2 in current phase
 Status: Complete
-Last activity: 2026-02-16 — Completed 05-02-PLAN.md (Organization Pages)
+Last activity: 2026-02-16 — Completed 06-01-PLAN.md (Fees & Events Data and Components)
 
-Progress: [█████░░░░░] 50%
+Progress: [█████░░░░░] 55%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: 2.6 minutes
-- Total execution time: 0.4 hours
+- Total plans completed: 11
+- Average duration: 2.7 minutes
+- Total execution time: 0.5 hours
 
 **By Phase:**
 
@@ -32,9 +32,10 @@ Progress: [█████░░░░░] 50%
 | 03-home-page | 2 | 10 min | 5 min |
 | 04-teams-rosters-system | 3 | 7 min | 2.3 min |
 | 05-organization-pages | 2 | 4 min | 2 min |
+| 06-fees-events | 1 | 3.5 min | 3.5 min |
 
 **Recent Trend:**
-- Last 5 plans: 04-02 (2 min), 04-03 (3 min), 05-01 (2 min), 05-02 (2 min)
+- Last 5 plans: 04-03 (3 min), 05-01 (2 min), 05-02 (2 min), 06-01 (3.5 min)
 - Trend: Stable (autonomous plans are faster)
 
 *Updated after each plan completion*
@@ -76,6 +77,11 @@ Recent decisions affecting current work:
 - [Phase 05-organization-pages]: Code of Conduct not in main nav to avoid overcrowding (accessible from About page and footer)
 - [Phase 05-organization-pages]: Navigation order: Home, Teams, About, Board & Staff, Fees & Events, Spirit Wear, Sponsors, Contact
 - [Phase 05-organization-pages]: Home page sponsors section shows 8 sponsors (limit prop on SponsorGrid)
+- [Phase 06-fees-events]: Pricing tiers: 7U-8U ($350), 9U-10U ($450), 11U-12U ($550), 13U-15U ($650)
+- [Phase 06-fees-events]: 8 key dates from tryouts through season end covering all major milestones
+- [Phase 06-fees-events]: 12 FAQ items distributed across 4 categories for comprehensive parent coverage
+- [Phase 06-fees-events]: JerseyWatch iframe with sandbox security (allow-scripts, allow-forms, allow-same-origin, allow-popups)
+- [Phase 06-fees-events]: Category badges on EventList for visual categorization of date types
 
 ### Pending Todos
 
@@ -88,5 +94,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Phase 6 context gathered
-Resume file: .planning/phases/06-fees-events/06-CONTEXT.md
+Stopped at: Completed 06-01-PLAN.md (Fees & Events Data and Components)
+Resume file: .planning/phases/06-fees-events/06-01-SUMMARY.md
