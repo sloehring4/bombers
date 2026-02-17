@@ -31,6 +31,12 @@ export default function Footer() {
                 Fees &amp; Events
               </Link>
               <Link
+                href="/code-of-conduct"
+                className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors"
+              >
+                Code of Conduct
+              </Link>
+              <Link
                 href="/spirit-wear"
                 className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors"
               >

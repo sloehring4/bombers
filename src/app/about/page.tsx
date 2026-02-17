@@ -77,12 +77,20 @@ export default function AboutPage() {
           <p className="text-gray-700 mb-2">
             <strong>Meet Our Leadership:</strong> Learn more about our dedicated Board of Directors and staff.
           </p>
-          <Link
-            href="/board-staff"
-            className="inline-block text-bombers-navy font-semibold hover:text-bombers-yellow transition-colors"
-          >
-            View Board & Staff →
-          </Link>
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="/board-staff"
+              className="inline-block text-bombers-navy font-semibold hover:text-bombers-yellow transition-colors"
+            >
+              View Board & Staff →
+            </Link>
+            <Link
+              href="/code-of-conduct"
+              className="inline-block text-bombers-navy font-semibold hover:text-bombers-yellow transition-colors"
+            >
+              Code of Conduct →
+            </Link>
+          </div>
         </div>
       </section>
 
