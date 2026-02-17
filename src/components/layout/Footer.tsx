@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Facebook, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -72,16 +73,20 @@ export default function Footer() {
                 href="https://facebook.com/ofallonbombers"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors"
+                aria-label="Visit our Facebook page"
+                className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors flex items-center gap-2"
               >
+                <Facebook className="w-4 h-4" aria-hidden="true" />
                 Facebook
               </a>
               <a
                 href="https://instagram.com/ofallonbombers"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors"
+                aria-label="Visit our Instagram page"
+                className="text-sm text-navy-200 hover:text-bombers-yellow transition-colors flex items-center gap-2"
               >
+                <Instagram className="w-4 h-4" aria-hidden="true" />
                 Instagram
               </a>
             </div>
