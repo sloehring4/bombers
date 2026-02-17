@@ -1,5 +1,16 @@
 {
-  "contactEmail": "placeholder@example.com",
-  "donationUrl": "https://placeholder.com",
-  "socialLinks": []
+  "contactEmail": "ofallonbombers@gmail.com",
+  "donationUrl": "https://paypal.me/ofallonbombers",
+  "socialLinks": [
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/ofallonbombers",
+      "iconName": "Facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/ofallonbombers",
+      "iconName": "Instagram"
+    }
+  ]
 }

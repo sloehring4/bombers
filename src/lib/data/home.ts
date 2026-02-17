@@ -1,6 +1,9 @@
 import { Users, DollarSign, Shirt, Mail } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
+import homeJson from './home.json';
+import { HomeDataSchema } from '../schemas/home';
 
+// QuickLink with LucideIcon (not in JSON)
 export interface QuickLink {
   icon: LucideIcon;
   title: string;
@@ -8,62 +11,28 @@ export interface QuickLink {
   href: string;
 }
 
-export interface KeyDate {
-  label: string;
-  date: string;
-}
+// Re-export KeyDate type from schema
+export type { KeyDate } from '../schemas/home';
 
-export const quickLinks: QuickLink[] = [
-  {
-    icon: Users,
-    title: 'Teams',
-    description: 'Explore our age divisions, team rosters, and coaching staff',
-    href: '/teams',
-  },
-  {
-    icon: DollarSign,
-    title: 'Fees & Registration',
-    description: 'Season costs, payment plans, and registration information',
-    href: '/fees',
-  },
-  {
-    icon: Shirt,
-    title: 'Spirit Wear',
-    description: 'Get official Bombers gear, apparel, and accessories',
-    href: '/spirit-wear',
-  },
-  {
-    icon: Mail,
-    title: 'Contact Us',
-    description: 'Get in touch with our organization for questions or support',
-    href: '/contact',
-  },
-];
+// Parse and validate JSON data
+const validated = HomeDataSchema.parse(homeJson);
 
-export const keyDates = [
-  {
-    label: 'Next Tryouts',
-    date: 'March 15, 2026',
-  },
-  {
-    label: 'Registration Deadline',
-    date: 'March 30, 2026',
-  },
-  {
-    label: 'Season Starts',
-    date: 'April 12, 2026',
-  },
-];
+// Icon name mapping
+const iconMap: Record<string, LucideIcon> = {
+  Users,
+  DollarSign,
+  Shirt,
+  Mail,
+};
 
-export const heroContent = {
-  headline: "O'Fallon Bombers",
-  tagline: 'Building Champions On and Off the Field',
-  primaryCta: {
-    text: 'Register Your Player',
-    href: '/fees',
-  },
-  secondaryCta: {
-    text: 'View Our Teams',
-    href: '/teams',
-  },
-} as const;
+// Map quickLinks from JSON iconName to actual LucideIcon
+export const quickLinks: QuickLink[] = validated.quickLinks.map((link) => ({
+  icon: iconMap[link.iconName],
+  title: link.title,
+  description: link.description,
+  href: link.href,
+}));
+
+// Re-export other data
+export const keyDates = validated.keyDates;
+export const heroContent = validated.heroContent;

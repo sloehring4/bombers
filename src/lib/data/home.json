@@ -1,16 +1,54 @@
 {
   "heroContent": {
-    "headline": "Placeholder",
-    "tagline": "Placeholder",
+    "headline": "O'Fallon Bombers",
+    "tagline": "Building Champions On and Off the Field",
     "primaryCta": {
-      "text": "Placeholder",
-      "href": "/"
+      "text": "Register Your Player",
+      "href": "/fees"
     },
     "secondaryCta": {
-      "text": "Placeholder",
-      "href": "/"
+      "text": "View Our Teams",
+      "href": "/teams"
     }
   },
-  "quickLinks": [],
-  "keyDates": []
+  "quickLinks": [
+    {
+      "iconName": "Users",
+      "title": "Teams",
+      "description": "Explore our age divisions, team rosters, and coaching staff",
+      "href": "/teams"
+    },
+    {
+      "iconName": "DollarSign",
+      "title": "Fees & Registration",
+      "description": "Season costs, payment plans, and registration information",
+      "href": "/fees"
+    },
+    {
+      "iconName": "Shirt",
+      "title": "Spirit Wear",
+      "description": "Get official Bombers gear, apparel, and accessories",
+      "href": "/spirit-wear"
+    },
+    {
+      "iconName": "Mail",
+      "title": "Contact Us",
+      "description": "Get in touch with our organization for questions or support",
+      "href": "/contact"
+    }
+  ],
+  "keyDates": [
+    {
+      "label": "Next Tryouts",
+      "date": "March 15, 2026"
+    },
+    {
+      "label": "Registration Deadline",
+      "date": "March 30, 2026"
+    },
+    {
+      "label": "Season Starts",
+      "date": "April 12, 2026"
+    }
+  ]
 }

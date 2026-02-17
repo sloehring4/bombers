@@ -1,5 +1,232 @@
 {
-  "ageFees": [],
-  "keyDates": [],
-  "faqItems": []
+  "ageFees": [
+    {
+      "ageGroup": "7U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 250 },
+        { "label": "Uniform Deposit", "amount": 50 },
+        { "label": "Tournament Fee", "amount": 50 }
+      ],
+      "total": 350,
+      "description": "Includes 2 local tournaments and practice field time"
+    },
+    {
+      "ageGroup": "8U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 250 },
+        { "label": "Uniform Deposit", "amount": 50 },
+        { "label": "Tournament Fee", "amount": 50 }
+      ],
+      "total": 350,
+      "description": "Includes 2 local tournaments and practice field time"
+    },
+    {
+      "ageGroup": "9U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 300 },
+        { "label": "Uniform Deposit", "amount": 75 },
+        { "label": "Tournament Fee", "amount": 75 }
+      ],
+      "total": 450,
+      "description": "Includes 2 tournaments and expanded practice schedule"
+    },
+    {
+      "ageGroup": "10U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 300 },
+        { "label": "Uniform Deposit", "amount": 75 },
+        { "label": "Tournament Fee", "amount": 75 }
+      ],
+      "total": 450,
+      "description": "Includes 2 tournaments and expanded practice schedule"
+    },
+    {
+      "ageGroup": "11U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 350 },
+        { "label": "Uniform Deposit", "amount": 75 },
+        { "label": "Tournament Fee", "amount": 125 }
+      ],
+      "total": 550,
+      "description": "Includes 3 competitive tournaments and weekly games"
+    },
+    {
+      "ageGroup": "12U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 350 },
+        { "label": "Uniform Deposit", "amount": 75 },
+        { "label": "Tournament Fee", "amount": 125 }
+      ],
+      "total": 550,
+      "description": "Includes 3 competitive tournaments and weekly games"
+    },
+    {
+      "ageGroup": "13U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 400 },
+        { "label": "Uniform Deposit", "amount": 100 },
+        { "label": "Tournament Fee", "amount": 150 }
+      ],
+      "total": 650,
+      "description": "Includes 3 tournaments with travel opportunities"
+    },
+    {
+      "ageGroup": "14U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 400 },
+        { "label": "Uniform Deposit", "amount": 100 },
+        { "label": "Tournament Fee", "amount": 150 }
+      ],
+      "total": 650,
+      "description": "Includes 3 tournaments with travel opportunities"
+    },
+    {
+      "ageGroup": "15U",
+      "breakdown": [
+        { "label": "Season Fee", "amount": 400 },
+        { "label": "Uniform Deposit", "amount": 100 },
+        { "label": "Tournament Fee", "amount": 150 }
+      ],
+      "total": 650,
+      "description": "Includes 3 tournaments with travel opportunities"
+    }
+  ],
+  "keyDates": [
+    {
+      "id": "tryouts-2026",
+      "label": "Tryouts",
+      "date": "March 15, 2026",
+      "category": "tryout",
+      "description": "Open tryouts for all age groups at Bomber Field"
+    },
+    {
+      "id": "registration-deadline",
+      "label": "Registration Deadline",
+      "date": "March 30, 2026",
+      "category": "registration",
+      "description": "Final day to register for the Spring 2026 season"
+    },
+    {
+      "id": "season-start",
+      "label": "Season Starts",
+      "date": "April 12, 2026",
+      "category": "season",
+      "description": "First official practice for all teams"
+    },
+    {
+      "id": "opening-day",
+      "label": "Opening Day Jamboree",
+      "date": "April 18, 2026",
+      "category": "season",
+      "description": "Season kickoff event with games and activities"
+    },
+    {
+      "id": "memorial-classic",
+      "label": "Memorial Day Classic Tournament",
+      "date": "May 23-25, 2026",
+      "category": "tournament",
+      "description": "Three-day tournament featuring multiple age divisions"
+    },
+    {
+      "id": "mid-season-tournament",
+      "label": "Mid-Season Tournament",
+      "date": "June 13-14, 2026",
+      "category": "tournament",
+      "description": "Competitive weekend tournament for 10U and above"
+    },
+    {
+      "id": "all-star-weekend",
+      "label": "All-Star Weekend",
+      "date": "July 11-12, 2026",
+      "category": "tournament",
+      "description": "Championship weekend showcasing top players"
+    },
+    {
+      "id": "season-end",
+      "label": "Season Ends",
+      "date": "July 25, 2026",
+      "category": "season",
+      "description": "Final games and season celebration"
+    }
+  ],
+  "faqItems": [
+    {
+      "id": "fees-included",
+      "question": "What's included in the season fees?",
+      "answer": "Season fees cover field usage, equipment, practice time, league games, and tournament entry fees. Uniform deposits are refundable at the end of the season if the uniform is returned in good condition. Tournament fees cover entry costs, umpire fees, and facility rentals for competitive play.",
+      "category": "fees"
+    },
+    {
+      "id": "fees-payment-plans",
+      "question": "Do you offer payment plans?",
+      "answer": "Yes! We offer flexible payment plans to make participation accessible. You can split payments into 2-3 installments with no additional fees. Contact our registrar at registration@ofallonbombers.com to set up a payment plan when you register.",
+      "category": "fees"
+    },
+    {
+      "id": "fees-financial-aid",
+      "question": "Is financial assistance available?",
+      "answer": "We believe every child should have the opportunity to play. Our scholarship program provides full or partial fee waivers based on need. All applications are confidential. Contact our board at board@ofallonbombers.com for information on applying. Don't let cost be a barrier—we're here to help.",
+      "category": "fees"
+    },
+    {
+      "id": "fees-refund-policy",
+      "question": "What is your refund policy?",
+      "answer": "Full refunds are available before tryouts conclude (March 20, 2026). After that date, we offer a 50% refund until the season starts (April 12). Once the season begins, fees are non-refundable except in cases of injury or relocation, which are evaluated on a case-by-case basis.",
+      "category": "fees"
+    },
+    {
+      "id": "tryouts-when-where",
+      "question": "When and where are tryouts held?",
+      "answer": "Tryouts take place on March 15, 2026, at Bomber Field (123 Baseball Lane, O'Fallon, IL). Times are staggered by age group: 7U-9U at 9:00 AM, 10U-12U at 11:00 AM, and 13U-15U at 1:00 PM. Check-in opens 30 minutes before each session. Rain date is March 22, 2026.",
+      "category": "tryouts"
+    },
+    {
+      "id": "tryouts-what-to-bring",
+      "question": "What should my child bring to tryouts?",
+      "answer": "Players should wear athletic clothing and bring: baseball glove, bat (optional—we have loaners), cleats or athletic shoes, water bottle, and a willingness to have fun! We evaluate hustle and attitude as much as skill. No prior experience is required for younger age groups.",
+      "category": "tryouts"
+    },
+    {
+      "id": "tryouts-age-cutoff",
+      "question": "What are the age cutoff dates?",
+      "answer": "Age divisions are based on the player's age as of April 30, 2026. For example, if your child turns 11 on May 1, they play in the 10U division. If you have questions about which division is right for your child, contact us—we can sometimes accommodate playing up if it's a better fit.",
+      "category": "tryouts"
+    },
+    {
+      "id": "season-practice-schedule",
+      "question": "What is the practice schedule?",
+      "answer": "Teams typically practice 2 times per week (weekday evenings, 6:00-7:30 PM) and play games on Saturdays. Exact days depend on field availability and coach schedules. We prioritize balance—baseball should be fun, not overwhelming. Coaches share schedules by April 1.",
+      "category": "season"
+    },
+    {
+      "id": "season-game-schedule",
+      "question": "How many games does each team play?",
+      "answer": "7U-9U teams play 12-14 league games plus 2 tournaments. 10U-12U teams play 16-18 games plus 2-3 tournaments. 13U-15U teams play 18-20 games plus 3 tournaments. The season runs from mid-April through late July with a break around July 4th.",
+      "category": "season"
+    },
+    {
+      "id": "season-travel",
+      "question": "Is travel required for tournaments?",
+      "answer": "Most tournaments are local (within 30 miles). For 13U-15U divisions, 1-2 tournaments per season may require overnight travel (St. Louis area). Families are responsible for their own transportation and lodging. We provide advance notice and help coordinate carpools when possible.",
+      "category": "season"
+    },
+    {
+      "id": "general-volunteers",
+      "question": "Are parents required to volunteer?",
+      "answer": "We ask each family to contribute 10 volunteer hours per season. Opportunities include: coaching, scorekeeping, field maintenance, concessions, fundraising events, and tournament coordination. Volunteering builds community and keeps costs down. Sign up through our website after registration.",
+      "category": "general"
+    },
+    {
+      "id": "general-communication",
+      "question": "How does the organization communicate with families?",
+      "answer": "We use email for official announcements, team apps (TeamSnap or similar) for team-specific communication, and our website for schedules and updates. Coaches also create team group chats. Make sure your contact info is current when you register!",
+      "category": "general"
+    },
+    {
+      "id": "general-weather",
+      "question": "What happens if games are rained out?",
+      "answer": "Weather cancellations are posted on our website and social media by 4:00 PM for evening games and 7:00 AM for morning games. Coaches also notify teams directly. Rained-out games are rescheduled when possible, but some may not be made up if the season schedule is full.",
+      "category": "general"
+    }
+  ]
 }

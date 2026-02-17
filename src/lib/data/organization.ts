@@ -1,41 +1,12 @@
-export interface BoardMember {
-  name: string;
-  title: string;
-  photoUrl: string;
-  bio?: string;
-}
+import organizationJson from './organization.json';
+import { OrganizationDataSchema } from '../schemas/organization';
 
-export const boardMembers: readonly BoardMember[] = [
-  {
-    name: 'Jennifer Martinez',
-    title: 'President',
-    photoUrl: '/images/board/placeholder.jpg',
-    bio: 'Jennifer has been involved with the Bombers organization for 8 years and brings extensive experience in youth sports administration. She is passionate about creating opportunities for all players to develop their skills and character.',
-  },
-  {
-    name: 'David Thompson',
-    title: 'Vice President',
-    photoUrl: '/images/board/placeholder.jpg',
-    bio: 'David has served on the board for 5 years and focuses on program development and coaching support. He believes in building a positive, competitive environment for all age groups.',
-  },
-  {
-    name: 'Maria Garcia',
-    title: 'Treasurer',
-    photoUrl: '/images/board/placeholder.jpg',
-    bio: 'Maria manages the organization\'s finances and fundraising efforts. She has been with the Bombers for 6 years and is committed to maintaining financial transparency and sustainability.',
-  },
-  {
-    name: 'Robert Johnson',
-    title: 'Secretary',
-    photoUrl: '/images/board/placeholder.jpg',
-    bio: 'Robert handles communications and record-keeping for the board. He has been involved with youth baseball for over 10 years and is dedicated to keeping families informed and engaged.',
-  },
-  {
-    name: 'Sarah Williams',
-    title: 'Member at Large',
-    photoUrl: '/images/board/placeholder.jpg',
-    bio: 'Sarah focuses on community outreach and volunteer coordination. She joined the board 3 years ago and is passionate about expanding the Bombers\' reach in the community.',
-  },
-];
+// Re-export types from schema
+export type { BoardMember } from '../schemas/organization';
 
-export const staff: readonly BoardMember[] = [];
+// Parse and validate JSON data
+const validated = OrganizationDataSchema.parse(organizationJson);
+
+// Re-export data
+export const boardMembers = validated.boardMembers;
+export const staff = validated.staff;
