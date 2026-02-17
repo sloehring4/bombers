@@ -125,10 +125,10 @@ Plans:
 **Success Criteria** (what must be TRUE):
   1. Spirit wear catalog preview displays product images and descriptions
   2. "Buy Now" links navigate to external spirit wear store
-**Plans**: TBD
+**Plans:** 1 plan
 
 Plans:
-- [ ] 07-01: TBD
+- [ ] 07-01-PLAN.md — Spirit wear data layer, ProductCard/ProductGrid components, and /spirit-wear page with catalog and store CTA
 
 ### Phase 8: Contact & Social
 **Goal**: Families can contact the organization and connect via social media
