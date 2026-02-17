@@ -2,7 +2,7 @@ import { Calendar } from 'lucide-react';
 import type { KeyDate } from '@/lib/data/fees';
 
 interface EventListProps {
-  events: KeyDate[];
+  events: readonly KeyDate[];
 }
 
 const categoryLabels: Record<KeyDate['category'], string> = {
