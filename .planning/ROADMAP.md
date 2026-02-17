@@ -154,11 +154,12 @@ Plans:
   2. Content update guide documents how to edit JSON files for common tasks
   3. Board members can add/update player rosters by editing JSON and redeploying
   4. Board members can update event dates and fees without developer assistance
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 09-01: TBD
-- [ ] 09-02: TBD
+- [ ] 09-01-PLAN.md — Migrate TypeScript data files to JSON with Zod validation schemas
+- [ ] 09-02-PLAN.md — Validation script and GitHub Actions CI workflow
+- [ ] 09-03-PLAN.md — Comprehensive Content Update Guide for non-technical board members
 
 ### Phase 10: Deployment & Documentation
 **Goal**: Site is live on custom domain with clear maintenance instructions
@@ -206,6 +207,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 6. Fees & Events | 0/TBD | Not started | - |
 | 7. Spirit Wear | 0/TBD | Not started | - |
 | 8. Contact & Social | 0/TBD | Not started | - |
-| 9. Content Management System | 0/TBD | Not started | - |
+| 9. Content Management System | 0/3 | Not started | - |
 | 10. Deployment & Documentation | 0/TBD | Not started | - |
 | 11. Performance & SEO | 0/TBD | Not started | - |
