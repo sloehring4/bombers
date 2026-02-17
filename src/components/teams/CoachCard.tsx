@@ -28,6 +28,9 @@ export default function CoachCard({ coach }: CoachCardProps) {
         <p className="text-sm text-gray-600">
           {coach.role}
         </p>
+        {coach.bio && (
+          <p className="text-sm text-gray-500 mt-2">{coach.bio}</p>
+        )}
       </div>
     </div>
   );
