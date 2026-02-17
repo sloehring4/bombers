@@ -81,11 +81,12 @@ Plans:
   3. Roster pages show player names, jersey numbers, and positions
   4. Coach names and photos/bios appear on roster pages
   5. Team photos display correctly on roster pages
-**Plans:** 2 plans
+**Plans:** 3 plans
 
 Plans:
 - [ ] 04-01-PLAN.md — Team data types/sample data and teams overview page with age group grouping
 - [ ] 04-02-PLAN.md — Dynamic roster pages with RosterTable, CoachCard, and generateStaticParams
+- [ ] 04-03-PLAN.md — Gap closure: placeholder images, coach bios (TEAM-04), and 15U team data
 
 ### Phase 5: Organization Pages
 **Goal**: Families can learn about the Bombers organization, leadership, and values
