@@ -112,11 +112,11 @@ Plans:
   2. Key dates (tryouts, season start, tournament schedule) are clearly listed
   3. Registration section includes embedded JerseyWatch registration form/link
   4. FAQ section answers common parent questions about fees, tryouts, and season structure
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md — Data layer (fees, dates, FAQ) and section components (FeeCard, EventList, RegistrationCTA)
+- [ ] 06-02-PLAN.md — Compose Fees & Events page at /fees with all sections and FAQ accordion
 
 ### Phase 7: Spirit Wear
 **Goal**: Families can browse spirit wear products and access the purchase store
