@@ -7,6 +7,7 @@ export interface Coach {
   name: string;
   role: 'Head Coach' | 'Assistant Coach';
   photoUrl: string;
+  bio?: string;
 }
 
 export interface Team {
@@ -35,6 +36,7 @@ export const teams: Team[] = [
         name: 'Mike Adams',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Adams has been coaching youth baseball for 8 years and focuses on building fundamental skills in a fun, supportive environment. He believes in developing well-rounded players who love the game.',
       },
     ],
     players: [
@@ -60,11 +62,13 @@ export const teams: Team[] = [
         name: 'Sarah Miller',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Miller brings 5 years of coaching experience with a focus on teamwork and sportsmanship. She emphasizes creating a positive learning environment where every player feels valued and encouraged to improve.',
       },
       {
         name: 'Tom Wilson',
         role: 'Assistant Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Wilson specializes in defensive fundamentals and has helped develop players at the youth level for over 6 years.',
       },
     ],
     players: [
@@ -91,6 +95,7 @@ export const teams: Team[] = [
         name: 'Chris Johnson',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Johnson has been coaching for over 10 years with a passion for teaching proper hitting and base running techniques. His teams are known for their discipline and competitive spirit on the field.',
       },
     ],
     players: [
@@ -119,11 +124,13 @@ export const teams: Team[] = [
         name: 'Mark Cook',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Cook brings 12 years of youth baseball coaching experience with a focus on developing pitching and defensive skills. He believes in teaching the mental side of the game alongside physical fundamentals.',
       },
       {
         name: 'Jennifer Bailey',
         role: 'Assistant Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Bailey has coached youth baseball for 4 years and specializes in building player confidence and positive team culture.',
       },
     ],
     players: [
@@ -150,6 +157,7 @@ export const teams: Team[] = [
         name: 'Brian Smith',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Smith has been involved in youth baseball for 7 years and emphasizes fundamentals, teamwork, and having fun. He focuses on creating an inclusive environment where every player can thrive.',
       },
     ],
     players: [
@@ -177,6 +185,7 @@ export const teams: Team[] = [
         name: 'Roberto Martinez',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Martinez has over 15 years of baseball coaching experience at multiple levels. He focuses on advanced skill development and preparing players for competitive play while maintaining a positive, growth-oriented environment.',
       },
     ],
     players: [
@@ -204,11 +213,13 @@ export const teams: Team[] = [
         name: 'Carlos Rodriguez',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Rodriguez has coached youth baseball for 9 years with a focus on player development and competitive excellence. He emphasizes discipline, teamwork, and building character through sports.',
       },
       {
         name: 'Maria Rodriguez',
         role: 'Assistant Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Rodriguez brings 6 years of coaching experience with expertise in base running and offensive strategies.',
       },
     ],
     players: [], // Empty roster for testing empty state
@@ -225,6 +236,7 @@ export const teams: Team[] = [
         name: 'Jeff Patterson',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Patterson has been coaching competitive youth baseball for 11 years. He specializes in developing pitchers and catchers while emphasizing the importance of mental toughness and game preparation.',
       },
     ],
     players: [
@@ -252,11 +264,13 @@ export const teams: Team[] = [
         name: 'David Williams',
         role: 'Head Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Williams brings 13 years of coaching experience with a strong focus on advanced hitting mechanics and situational baseball. He is committed to preparing players for high school baseball and beyond.',
       },
       {
         name: 'Lisa Anderson',
         role: 'Assistant Coach',
         photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Anderson has 5 years of experience coaching youth baseball with a specialty in outfield play and team communication.',
       },
     ],
     players: [
@@ -271,6 +285,40 @@ export const teams: Team[] = [
       { name: 'Jake Turner', jerseyNumber: 19 },
       { name: 'Kevin Walker', jerseyNumber: 26 },
       { name: 'Leo Ward', jerseyNumber: 30 },
+    ],
+  },
+  // 15U Division
+  {
+    id: '15u-thompson',
+    name: '15U Thompson',
+    ageGroup: '15U',
+    headCoachName: 'Michael Thompson',
+    season: currentSeason,
+    coaches: [
+      {
+        name: 'Michael Thompson',
+        role: 'Head Coach',
+        photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Thompson has over 14 years of coaching experience at competitive levels, with a focus on advanced strategy and preparing players for high school varsity baseball. He emphasizes leadership development both on and off the field.',
+      },
+      {
+        name: 'Steve Jenkins',
+        role: 'Assistant Coach',
+        photoUrl: '/images/coaches/placeholder.jpg',
+        bio: 'Coach Jenkins brings 8 years of experience with a specialty in pitching development and bullpen management.',
+      },
+    ],
+    players: [
+      { name: 'Andrew Martinez', jerseyNumber: 1 },
+      { name: 'Brandon Cole', jerseyNumber: 7 },
+      { name: 'Connor Hughes', jerseyNumber: 12 },
+      { name: 'Dylan Brooks', jerseyNumber: 17 },
+      { name: 'Evan Price', jerseyNumber: 22 },
+      { name: 'Frank Myers', jerseyNumber: 5 },
+      { name: 'Gabriel Long', jerseyNumber: 10 },
+      { name: 'Henry Foster', jerseyNumber: 15 },
+      { name: 'Isaac Bell', jerseyNumber: 20 },
+      { name: 'Jacob Coleman', jerseyNumber: 25 },
     ],
   },
 ];
