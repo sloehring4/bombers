@@ -170,11 +170,11 @@ Plans:
   2. Custom domain (ofallonbombers.com) points to deployed site
   3. Board member guide explains how to update content and redeploy
   4. Deployment process is documented with step-by-step instructions
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 10-01: TBD
-- [ ] 10-02: TBD
+- [ ] 10-01-PLAN.md — Operations guide (deployment, domain, rollback, troubleshooting) and project README
+- [ ] 10-02-PLAN.md — Deploy to Vercel, configure custom domain, add board member collaborators
 
 ### Phase 11: Performance & SEO
 **Goal**: Site loads fast, ranks well in search, and provides excellent user experience
@@ -195,7 +195,7 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
@@ -208,5 +208,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 7. Spirit Wear | 0/TBD | Not started | - |
 | 8. Contact & Social | 0/TBD | Not started | - |
 | 9. Content Management System | 0/3 | Not started | - |
-| 10. Deployment & Documentation | 0/TBD | Not started | - |
+| 10. Deployment & Documentation | 0/2 | Not started | - |
 | 11. Performance & SEO | 0/TBD | Not started | - |
