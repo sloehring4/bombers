@@ -1,0 +1,55 @@
+name: Validate Data Files
+
+on:
+  pull_request:
+    paths:
+      - 'src/lib/data/**/*.json'
+      - 'src/lib/schemas/**/*.ts'
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/lib/data/**/*.json'
+      - 'src/lib/schemas/**/*.ts'
+
+jobs:
+  validate:
+    name: Validate JSON Data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run data validation
+        id: validate
+        run: pnpm validate:data
+
+      - name: Run TypeScript type check
+        run: pnpm tsc --noEmit
+
+      - name: Comment on PR failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ **Data validation failed**\n\nPlease check the error output in the "Run data validation" step above to see what needs to be fixed.\n\nCommon issues:\n- Missing required fields\n- Invalid data types\n- Malformed JSON syntax\n- URL or email validation errors\n\nRun `pnpm validate:data` locally to test your changes before pushing.'
+            })
