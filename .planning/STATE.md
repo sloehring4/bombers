@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 ## Current Position
 
 Phase: 9 of 11 (Content Management System)
-Plan: 1 of 1 in current phase
+Plan: 3 of 3 in current phase
 Status: Complete
-Last activity: 2026-02-17 — Completed 09-01-PLAN.md (Data Migration to JSON + Zod)
+Last activity: 2026-02-17 — Completed 09-03-PLAN.md (Content Update Guide)
 
-Progress: [████████░░] 82%
+Progress: [████████░░] 84%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
-- Average duration: 4.0 minutes
-- Total execution time: 1.0 hours
+- Total plans completed: 18
+- Average duration: 4.2 minutes
+- Total execution time: 1.3 hours
 
 **By Phase:**
 
@@ -35,11 +35,11 @@ Progress: [████████░░] 82%
 | 06-fees-events | 2 | 5 min | 2.5 min |
 | 07-spirit-wear | 1 | 3.2 min | 3.2 min |
 | 08-contact-social | 2 | 5 min | 2.5 min |
-| 09-content-management-system | 1 | 15 min | 15 min |
+| 09-content-management-system | 3 | 23 min | 7.7 min |
 
 **Recent Trend:**
-- Last 5 plans: 08-01 (3 min), 08-02 (2 min), 09-01 (15 min)
-- Trend: Data migration tasks take longer (JSON extraction and validation setup)
+- Last 5 plans: 08-02 (2 min), 09-01 (15 min), 09-02 (3.8 min), 09-03 (4 min)
+- Trend: Data migration and validation setup (09-01) took longer; documentation tasks (09-02, 09-03) completed quickly
 
 *Updated after each plan completion*
 
@@ -105,6 +105,14 @@ Recent decisions affecting current work:
 - [Phase 09-01]: Schema naming for KeyDate - FeesKeyDate for fees (has category field) vs KeyDate for home (simpler structure)
 - [Phase 09-01]: Form schema location - contactFormSchema in contact.ts schema file (co-located with contact data schema)
 - [Phase 09-01]: Zod parse timing - validation happens at import time (fail-fast approach catches data errors immediately)
+- [Phase 09-02]: tsx instead of ts-node for script execution (faster, simpler, better ESM support)
+- [Phase 09-02]: Load JSON with fs.readFileSync instead of import assertions (avoids syntax issues)
+- [Phase 09-02]: Path-based workflow triggers to save CI minutes (only run when data/schema files change)
+- [Phase 09-02]: Auto-comment on PR failures for immediate guidance to non-technical editors
+- [Phase 09-03]: GitHub web editor chosen as primary editing interface for non-technical users
+- [Phase 09-03]: Copy-paste template approach for common operations to minimize JSON syntax errors
+- [Phase 09-03]: Screenshot placeholders for future visual documentation (actual screenshots can be added later)
+- [Phase 09-03]: Image uploads commit directly to main (unlike data edits which use pull requests)
 
 ### Pending Todos
 
@@ -117,5 +125,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 09-01-PLAN.md (Data Migration to JSON + Zod)
-Resume file: .planning/phases/09-content-management-system/09-01-SUMMARY.md
+Stopped at: Completed 09-03-PLAN.md (Content Update Guide)
+Resume file: .planning/phases/09-content-management-system/09-03-SUMMARY.md
