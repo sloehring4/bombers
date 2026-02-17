@@ -88,5 +88,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 05-02-PLAN.md
-Resume file: Phase 05 complete - proceed to Phase 06
+Stopped at: Phase 6 context gathered
+Resume file: .planning/phases/06-fees-events/06-CONTEXT.md
