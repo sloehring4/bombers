@@ -10,17 +10,17 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 ## Current Position
 
 Phase: 5 of 11 (Organization Pages)
-Plan: 1 of 2 in current phase
+Plan: 2 of 2 in current phase
 Status: Complete
-Last activity: 2026-02-16 — Completed 05-01-PLAN.md (Organization Data Layer and Components)
+Last activity: 2026-02-16 — Completed 05-02-PLAN.md (Organization Pages)
 
 Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
-- Average duration: 2.7 minutes
+- Total plans completed: 10
+- Average duration: 2.6 minutes
 - Total execution time: 0.4 hours
 
 **By Phase:**
@@ -31,10 +31,10 @@ Progress: [█████░░░░░] 50%
 | 02-core-layout-navigation | 2 | 3 min | 1.5 min |
 | 03-home-page | 2 | 10 min | 5 min |
 | 04-teams-rosters-system | 3 | 7 min | 2.3 min |
-| 05-organization-pages | 1 | 2 min | 2 min |
+| 05-organization-pages | 2 | 4 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 04-01 (2 min), 04-02 (2 min), 04-03 (3 min), 05-01 (2 min)
+- Last 5 plans: 04-02 (2 min), 04-03 (3 min), 05-01 (2 min), 05-02 (2 min)
 - Trend: Stable (autonomous plans are faster)
 
 *Updated after each plan completion*
@@ -73,6 +73,9 @@ Recent decisions affecting current work:
 - [Phase 05-organization-pages]: Privacy-first board member data with no email/phone fields
 - [Phase 05-organization-pages]: Single-item accordion expansion pattern for better UX
 - [Phase 05-organization-pages]: Conditional link wrapper pattern for sponsors with websites
+- [Phase 05-organization-pages]: Code of Conduct not in main nav to avoid overcrowding (accessible from About page and footer)
+- [Phase 05-organization-pages]: Navigation order: Home, Teams, About, Board & Staff, Fees & Events, Spirit Wear, Sponsors, Contact
+- [Phase 05-organization-pages]: Home page sponsors section shows 8 sponsors (limit prop on SponsorGrid)
 
 ### Pending Todos
 
@@ -85,5 +88,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 05-01-PLAN.md
-Resume file: .planning/phases/05-organization-pages/05-02-PLAN.md
+Stopped at: Completed 05-02-PLAN.md
+Resume file: Phase 05 complete - proceed to Phase 06
