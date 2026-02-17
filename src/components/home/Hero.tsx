@@ -5,24 +5,14 @@ import Button from '@/components/ui/Button';
 
 export default function Hero() {
   return (
-    <section className="relative h-[70vh] min-h-[500px] w-full flex items-center justify-center overflow-hidden">
-      <Image
-        src="/images/hero-placeholder.jpg"
-        alt="O'Fallon Bombers baseball action"
-        fill
-        priority
-        sizes="100vw"
-        quality={90}
-        className="object-cover"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-bombers-navy/70 via-bombers-navy/50 to-bombers-navy/70" />
+    <section className="relative h-[70vh] min-h-[500px] w-full flex items-center justify-center overflow-hidden bg-bombers-navy">
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <Image
           src="/images/bombers-logo.png"
           alt=""
           width={600}
           height={600}
-          className="opacity-10 w-[500px] md:w-[600px] lg:w-[700px] h-auto select-none"
+          className="opacity-15 w-[500px] md:w-[600px] lg:w-[700px] h-auto select-none"
           aria-hidden="true"
         />
       </div>
