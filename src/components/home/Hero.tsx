@@ -16,6 +16,16 @@ export default function Hero() {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-bombers-navy/70 via-bombers-navy/50 to-bombers-navy/70" />
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <Image
+          src="/images/bombers-logo.png"
+          alt=""
+          width={600}
+          height={600}
+          className="opacity-10 w-[500px] md:w-[600px] lg:w-[700px] h-auto select-none"
+          aria-hidden="true"
+        />
+      </div>
       <div className="relative z-10 text-center px-4 max-w-4xl space-y-6">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white font-heading">
           O&apos;Fallon Bombers
