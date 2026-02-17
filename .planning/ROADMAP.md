@@ -97,11 +97,11 @@ Plans:
   2. Board of directors and coaching staff are listed with names and roles
   3. Code of conduct and sportsmanship values are accessible (page section or PDF)
   4. Sponsor logos display prominently on relevant pages
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — Data layer and reusable components (organization/sponsor/conduct data, Accordion, BoardMemberCard, SponsorCard, SponsorGrid)
+- [ ] 05-02-PLAN.md — Organization pages (About, Board/Staff, Code of Conduct, Sponsors), home page sponsors section, and navigation update
 
 ### Phase 6: Fees & Events
 **Goal**: Parents can find season costs, key dates, and registration information
@@ -202,7 +202,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 2. Core Layout & Navigation | 0/TBD | Not started | - |
 | 3. Home Page | 0/2 | Not started | - |
 | 4. Teams & Rosters System | 0/2 | Not started | - |
-| 5. Organization Pages | 0/TBD | Not started | - |
+| 5. Organization Pages | 0/2 | Not started | - |
 | 6. Fees & Events | 0/TBD | Not started | - |
 | 7. Spirit Wear | 0/TBD | Not started | - |
 | 8. Contact & Social | 0/TBD | Not started | - |
